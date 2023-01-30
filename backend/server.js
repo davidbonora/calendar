@@ -2,8 +2,9 @@
 const express = require('express');
 const app = express();
 
+// Route a view from react
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+    res.send('Hello World!');
 });
 
 app.listen(3000, () => {
